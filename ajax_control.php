@@ -92,7 +92,7 @@ if (isset($_POST["control"])){
                   </div>
                   <div class="chat-body">
                       <div class="chat-message">
-                          <h5 class="name">%s</h5>
+                          <h5>%s</h5>
                           <p>%s</p>
                       </div>
                   </div>

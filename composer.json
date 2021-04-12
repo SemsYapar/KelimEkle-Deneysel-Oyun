@@ -1,5 +1,5 @@
 {
     "require": {
-        "ext-mbstring": "^7.4"
+        "ext-mbstring": "^8.0"
     }
 }

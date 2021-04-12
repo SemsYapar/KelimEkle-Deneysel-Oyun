@@ -37,7 +37,6 @@ if (isset($_POST["submit"])){
 			$db->real_escape_string($account), $db->real_escape_string($hash));
       $db->query($sql);
       $db->close(); 
-      echo "lol";
       header("Location: login.php");
 } 
 } 
@@ -68,7 +67,6 @@ if (isset($_POST["submit"])){
                 id="account_name_input"
                 placeholder=""
                 name="account"
-                value="<?php if(isset($_POST["account"])){echo $_POST["account"];} else{ echo "";}?>"
               required>
               <label for="account_name_input" class="form-label"
                 >Kullanıcı Adı</label
