@@ -1,6 +1,6 @@
 <?php
-define("MYSQL_HOST", "localhost");
-define("MYSQL_USER", "root");
-define("MYSQL_PASSWORD", "1234");
-define("MYSQL_DATABASE", "php1");
+define("MYSQL_HOST", "");
+define("MYSQL_USER", "");
+define("MYSQL_PASSWORD", "");
+define("MYSQL_DATABASE", "");
 ?>
